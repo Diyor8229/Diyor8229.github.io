@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 30%);
+    gap: 40px 36px;
+}
+
+.bg_post {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post_one_inside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_one_text_box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.post_one_text_icons {
+    border-radius: 50%;
+}
+
+.post_one_title {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.post_one_text {
+    border-radius: 3px;
+    background: #ccc;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 3px;
+}
+
+.post_one_text:hover {
+    background-color: #EA4C89;
+}
+
+.post_one_icons_box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.post_one_icon_text_left {
+    display: flex;
+    gap: 5px;
+}
+
+.post_one_icon_text_right {
+    display: flex;
+    gap: 5px;
+}
